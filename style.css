@@ -33,6 +33,9 @@ nav .logo span{
     align-items: center;
     list-style: none;
 }
+.nav-list{
+    display: flex;
+}
 ul li a{
     color: #848484;
     text-decoration: none;
@@ -444,6 +447,24 @@ transition: 0.1s ease-in all;
     }
     .menu{
         display: block;
+    }
+    /* .nav-list.active{
+        background-color: #3C50E0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateY(-40vh);
+        transition: transform .5s;
+        z-index: 1000;
+    } */
+    ul li a{
+        color: white;
     }
     .nav-items,.register-btns{
         display: none;
