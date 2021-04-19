@@ -389,7 +389,10 @@ transition: 0.1s ease-in all;
     grid-template-columns: repeat(4,1fr);
 }
 .footer-item {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: flex-start;
 }
 .footer-item h6{
     color: #E8E8E8;
